@@ -13,7 +13,7 @@ class FuckSmartisanPlugin {
         </script>
       `)
       let newTemp = $.html()
-      compilation.assets[fileName] = {
+      compilation.assets['index.html'] = {
         source: () => {
           return newTemp
         },
